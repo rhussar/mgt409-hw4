@@ -55,3 +55,7 @@
 ## Problem 13 — GitHub and Canvas
 
 **Initial prompt:** Put the finished code in a folder named `hw4`, publish it to a public GitHub repository, and submit the repository URL on Canvas. Keep the real `.env`, SQLite database, and product images out of Git; include a placeholder `.env.example` and clear run instructions.
+
+**Follow-up:** I’ll submit it myself.
+
+**Submission handoff:** The public repository is `https://github.com/rhussar/mgt409-hw4`. Canvas submission is for me to complete.
