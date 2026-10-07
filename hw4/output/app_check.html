@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Campus Customs — live app check</title>
+  <style>
+    :root{font-family:Arial,Helvetica,sans-serif;color:#183252;background:#f7f6f2}
+    *{box-sizing:border-box}body{margin:0}header{background:#102d54;color:white;padding:56px max(24px,calc((100vw - 1120px)/2))}header small{text-transform:uppercase;letter-spacing:.18em;color:#d0ad76;font-weight:700}h1{font-family:Georgia,serif;font-size:clamp(34px,5vw,58px);margin:12px 0}header p{max-width:680px;line-height:1.6;color:#dce5ed}main{max-width:1120px;margin:auto;padding:45px 24px 80px;display:grid;gap:50px}figure{margin:0;background:white;border:1px solid #e0e3e1;box-shadow:0 14px 35px #122b4b12;overflow:hidden}figcaption{padding:24px 28px;line-height:1.6}figcaption strong{display:block;font-family:Georgia,serif;font-size:27px;margin-bottom:7px}figcaption p{margin:0;color:#4d5f6e}img{display:block;width:100%;height:auto;max-width:900px;margin:auto;background:#e8ece9}a{color:#215d91}footer{padding:24px;text-align:center;color:#6b7b87;font-size:12px}
+  </style>
+</head>
+<body>
+  <header><small>Homework 4 · Problem 11</small><h1>Live app check</h1><p>These screenshots were captured in the running Campus Customs storefront with the supplied SQLite data pack and a live shopping assistant. Each view shows the result inside the actual browser UI.</p></header>
+  <main>
+    <figure><img src="app_check_images/inventory-chat.jpg" alt="Branford 1 4 Zip product page with chat response saying it costs $72 and has five in XL"><figcaption><strong>1. Inventory-level chat answer</strong><p>On the Branford 1 4 Zip page, the shopper asked whether XL was available and what it cost. The assistant replied with the database-backed $72.00 price and five XL units, then linked the matching product.</p></figcaption></figure>
+    <figure><img src="app_check_images/category-cards.jpg" alt="Products page chat showing matching hoodie cards with images and prices"><figcaption><strong>2. Dynamic category cards</strong><p>After “What hoodies do you have?”, the chat returned eight real catalogue matches. The screenshot shows the response and the first three clickable image cards; the list scrolls to the remaining cards.</p></figcaption></figure>
+    <figure><img src="app_check_images/size-filter.jpg" alt="Products page filtered to hoodies with XL stock, showing 21 matching pieces"><figcaption><strong>3. In-stock size filter</strong><p>The Products page is set to Hoodies and XL. It shows 21 pieces whose XL inventory is greater than zero, with a clear-filters control to restore the full catalogue.</p></figcaption></figure>
+  </main>
+  <footer>Campus Customs · Browser check captured October 6, 2026</footer>
+</body>
+</html>
