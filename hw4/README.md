@@ -14,7 +14,7 @@ Use Python 3.12 or newer and Node.js 20 or newer. From `hw4`, start the backend:
 
 ```bash
 cd backend
-python3 -m venv .venv
+python3.12 -m venv .venv
 .venv/bin/python -m pip install -r requirements.txt
 .venv/bin/uvicorn main:app --reload --port 8000
 ```
